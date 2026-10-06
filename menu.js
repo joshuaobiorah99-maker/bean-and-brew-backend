@@ -1,0 +1,77 @@
+const menuItems = [
+    {
+        name: "Espresso",
+        price: 2500,
+        category: "coffee",
+        image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
+        description: "Rich and bold freshly brewed coffee."
+    },
+    {
+        name: "Cappuccino",
+        price: 3000,
+        category: "coffee",
+        image: "https://images.unsplash.com/photo-1571565111863-9d496be534dd?auto=format&fit=crop&fm=jpg&q=80&w=800",
+        description: "Espresso with steamed milk and foam.",
+        popular: true
+    },
+    {
+        name: "Latte",
+        price: 3200,
+        category: "coffee",
+        image: "https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&fit=crop&fm=jpg&q=80&w=800",
+        description: "Smooth espresso blended with creamy milk.",
+        popular: true
+    },
+    {
+        name: "Mocha",
+        price: 3500,
+        category: "coffee",
+        image: "https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?auto=format&fit=crop&fm=jpg&q=80&w=800",
+        description: "A delicious combination of coffee and chocolate."
+    },
+    {
+        name: "Fresh Fruit Juice",
+        price: 1500,
+        category: "juice",
+        image: "https://images.unsplash.com/photo-1600271886742-f049cd451bba",
+        description: "Freshly squeezed juice made from seasonal fruits.",
+        popular: true
+    },
+    {
+        name: "Iced Tea",
+        price: 1500,
+        category: "tea",
+        image: "https://images.unsplash.com/photo-1556679343-c7306c1976bc",
+        description: "Cool, refreshing, and lightly sweet."
+    },
+    {
+        name: "Mango Smothie",
+        price: 2000,
+        category: "smoothie",
+        image: "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4",
+        description: "Creamy, fruity, and deliciously refreshing."
+    },
+    {
+        name: "Strawberry smothie",
+        price: 2000,
+        category: "smoothie",
+        image: "https://images.unsplash.com/photo-1553530666-ba11a7da3888",
+        description: "Sweet, creamy, and full of strawberry flavor."
+    },
+    {
+        name: "Fresh Lemonade",
+        price: 1500,
+        category: "lemonade",
+        image: "https://images.unsplash.com/photo-1595854341625-f33ee10dbf94",
+        description: "Zesty, refreshing, and perfectly sweet."
+    },
+    {
+        name: "Chocolate Milshake",
+        price: 2500,
+        category: "milkshake",
+        image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699",
+        description: "Rich, creamy, and delightfully chocolatey"
+    }
+];
+
+module.exports = menuItems;
